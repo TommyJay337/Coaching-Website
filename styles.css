@@ -1,0 +1,43 @@
+* {
+    background-color: rgb(16, 13, 16);
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0;
+  }
+
+h1 {
+    text-align: center;
+    border: 2px solid 
+        hsla(188, 100%, 50%, 0.448);
+    padding: 5px;
+}
+  nav {
+    padding: 12px;
+    border-bottom: 1px solid
+      hsla(188, 100%, 50%, 0.448);
+  }
+  ul {
+    display: flex;
+    gap: 12px;
+    list-style-type: none;
+    align-items: baseline;
+    padding: 0px;
+    margin: 0;
+  }
+
+li.logo {
+    margin-right: auto;
+}
+
+  ul a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.875rem;
+  }
+  .logo a {
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
